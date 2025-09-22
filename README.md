@@ -37,3 +37,12 @@ for channel, spike in zip(channels, spikes):
         # spikes_by_channel[channel] = spike
 ```
 That is, while the data is inherently temporal, because of its irregularity we treat it as one time step.
+```py
+a = []
+for key, value in spikes_by_channel.items():
+  a.append(value)
+```
+```py
+np.asarray(a)
+```
+Then we copy paste the contents of "a" into the baseline DQN file and add code to train the network to reproduce these activations at initialization, then perform standard DQN-style RL.
