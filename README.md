@@ -8,11 +8,11 @@ We pretrain a neural network to replicate the brain activity of a mouse for impr
 python3.10 mouse.py
 ```
 
-## Total Rewards Per 20 Episodes (Averaged Across 100 Runs) (Max 1000 Steps Per Episode) (500 Episodes Per Run)
+## Total Rewards Per 20 Episodes (Averaged Across 100 Runs) (Max 1000 Steps Per Episode) (500 Episodes Per Run) (higher is better)
 
 <img width="640" height="480" alt="mouse_plot" src="https://github.com/user-attachments/assets/677c1b63-f4cd-4bd6-ba33-cd351224b404" />
 
-## nanoGPT Experiment
+## nanoGPT Experiment (lower is better)
 
 <img width="640" height="480" alt="nanogpt_mouse_plot" src="https://github.com/user-attachments/assets/3fdd298a-e6c9-4182-a936-14de767c54ab" />
 
